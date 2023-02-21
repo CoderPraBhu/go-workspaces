@@ -1,5 +1,7 @@
 Using Go workspaces
 
+Reference: https://go.dev/doc/tutorial/workspaces
+
 ```
 cd ~/gospace
 mkdir go-workspaces
