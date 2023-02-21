@@ -21,7 +21,13 @@ cd example
 rm -rf .git
 
 cd ~/gospace/go-workspaces
+git add example/
+git add .
+git commit -m "Add example module as is" 
+
 go work use ./example
+
+go run coderprabhu.com/hello
 
 ```
 
