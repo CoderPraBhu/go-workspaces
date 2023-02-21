@@ -15,6 +15,14 @@ cd ~/gospace/go-workspaces
 go work init ./hello
 go run coderprabhu.com/hello
 
+cd ~/gospace/go-workspaces
+git clone https://go.googlesource.com/example
+cd example 
+rm -rf .git
+
+cd ~/gospace/go-workspaces
+go work use ./example
+
 ```
 
 Git 
