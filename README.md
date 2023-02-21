@@ -1,4 +1,6 @@
+Using Go workspaces
 
+```
 cd ~/gospace
 mkdir go-workspaces
 cd go-workspaces
@@ -13,3 +15,17 @@ cd ~/gospace/go-workspaces
 go work init ./hello
 go run coderprabhu.com/hello
 
+```
+
+Git 
+```
+git init
+git status
+git checkout -b main
+git add .
+git commit -m "Using go workspaces"
+git remote add origin https://github.com/CoderPraBhu/go-workspaces.git
+git push -u origin main
+
+
+```
